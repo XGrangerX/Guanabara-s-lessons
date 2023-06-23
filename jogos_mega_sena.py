@@ -18,7 +18,7 @@ while True:
     continuar = str(input('Deseja continuar? [S/N]'))
     if continuar in 'Nn':
         if cont < 6:
-            print('Seu jogo não está incompleto')
+            print('Seu jogo não está completo')
         break
 
 print(f'Valores registrados: {sorted(valores)} .')
